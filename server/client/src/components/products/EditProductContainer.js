@@ -3,6 +3,7 @@ import * as actions from "../../actions"
 import {compose} from "redux"
 import {connect} from "react-redux"
 import  requireAuth from "../requireAuth"
+import EditProductForm from './EditProductForm"
 
 class EditProductContainer extends Component{
    
@@ -14,7 +15,7 @@ class EditProductContainer extends Component{
     
     render(){
          return (
-            <EditProductForm onSubmit={this.onSubmit} initialData={this.props.initialData}/>
+            <EditProduct onSubmit={this.onSubmit} initialData={this.props.initialData}/>
          );        
     }
 }
