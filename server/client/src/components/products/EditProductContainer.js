@@ -3,7 +3,7 @@ import * as actions from "../../actions"
 import {compose} from "redux"
 import {connect} from "react-redux"
 import  requireAuth from "../requireAuth"
-import EditProductForm from "./EditProductForm"
+import EditProduct from "./EditProductForm"
 
 class EditProductContainer extends Component{
    
